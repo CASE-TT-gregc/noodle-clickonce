@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="NOODLE.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <system.diagnostics>
+    <sources>
+      <!-- This section defines the logging configuration for My.Application.Log -->
+      <source name="DefaultSource" switchName="DefaultSwitch">
+        <listeners>
+          <add name="FileLog" />
+          <!-- Uncomment the below section to write to the Application Event Log -->
+          <!--<add name="EventLog"/>-->
+        </listeners>
+      </source>
+    </sources>
+    <switches>
+      <add name="DefaultSwitch" value="Information" />
+    </switches>
+    <sharedListeners>
+      <add name="FileLog" type="Microsoft.VisualBasic.Logging.FileLogTraceListener, Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" initializeData="FileLogWriter" />
+      <!-- Uncomment the below section and replace APPLICATION_NAME with the name of your application to write to the Application Event Log -->
+      <!--<add name="EventLog" type="System.Diagnostics.EventLogTraceListener" initializeData="APPLICATION_NAME"/> -->
+    </sharedListeners>
+  </system.diagnostics>
+  <userSettings>
+    <NOODLE.My.MySettings>
+      <setting name="ICONsize" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="SMTPserver" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="POsave" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="SMprinter" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="MEDprinter" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="LGprinter" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="PRIMARYprinter" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="REPORTcmrp" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="MYsqlWIPconnectSTRING" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ACCESSwipCONNECTstring" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ACCESSpartmasterCONNECTstring" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="MYsqlPARTMASTERconnectSTRING" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="RECEIVElblSIZE" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="DEFAULTstockLOCATION" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="MYsqlCOMPONENTinfoCONNstring" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="DIGItempDIRECTORY" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="SQLmisysCONNstring" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="rootDIRforQUOTE" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="PEACHTREEconnSTRING" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ITEMdata" serializeAs="String">
+        <value />
+      </setting>
+    </NOODLE.My.MySettings>
+  </userSettings>
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8" />
+  </startup>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Runtime" culture="neutral" publicKeyToken="b03f5f7f11d50a3a" />
+        <bindingRedirect oldVersion="0.0.0.0-4.1.2.0" newVersion="4.1.2.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Threading.Tasks" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.6.9.0" newVersion="2.6.9.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Net.Http" culture="neutral" publicKeyToken="b03f5f7f11d50a3a" />
+        <bindingRedirect oldVersion="0.0.0.0-4.2.0.0" newVersion="4.2.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Net.Http.Primitives" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.2.22.0" newVersion="2.2.22.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="ICSharpCode.SharpZipLib" publicKeyToken="1b03e6acf1164f73" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-1.3.3.11" newVersion="1.3.3.11" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-12.0.0.0" newVersion="12.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="BouncyCastle.Crypto" publicKeyToken="0e99375e54769942" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-1.8.6.0" newVersion="1.8.6.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.5.0" newVersion="4.0.5.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Buffers" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.3.0" newVersion="4.0.3.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Google.Protobuf" publicKeyToken="a7d26565bac4d604" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-3.20.1.0" newVersion="3.20.1.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>
